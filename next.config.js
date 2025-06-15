@@ -1,13 +1,14 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === "production";
+
+
 const nextConfig = {
+  basePath: isProd ? "/Next.js-Tailwind-CSS-Portfolio-Template" : "",
+  assetPrefix: isProd ? "/Next.js-Tailwind-CSS-Portfolio-Template/" : "",
+  output: "export",
   images: {
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "**",
-      },
-    ],
+    unoptimized: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
