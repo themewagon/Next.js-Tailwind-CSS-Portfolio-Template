@@ -5,6 +5,7 @@
   "author": "Creative Tim",
   "license": "See license in https://www.creative-tim.com/license",
   "homepage": "https://github.com/themewagon/Next.js-Tailwind-CSS-Portfolio-Template",
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
