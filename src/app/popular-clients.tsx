@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { Typography } from "@material-tailwind/react";
+import { getImagePrefix } from "../../utils/utils";
 
 const CLIENTS = [
   "coinbase",
@@ -31,7 +32,7 @@ export function PopularClients() {
               alt={logo}
               width={480}
               height={480}
-              src={`/logos/logo-${logo}.svg`}
+              src={`${getImagePrefix()}logos/logo-${logo}.svg`}
               className="w-40 grayscale opacity-75"
             />
           ))}

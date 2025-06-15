@@ -18,6 +18,7 @@ export function Footer() {
               Creative Tim
             </a>
             .
+            Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
           </Typography>
           <ul className="flex gap-8 items-center">
             {LINKS.map((link) => (
