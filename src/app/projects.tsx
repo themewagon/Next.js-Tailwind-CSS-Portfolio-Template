@@ -2,45 +2,46 @@
 
 import { ProjectCard } from "@/components";
 import { Typography } from "@material-tailwind/react";
+import { getImagePrefix } from "../../utils/utils";
 
 const PROJECTS = [
   {
-    img: "/image/blog-1.svg",
+    img: `${getImagePrefix()}image/blog-1.svg`,
     title: "Mobile App Development",
     desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
   },
   {
-    img: "/image/blog2.svg",
+    img: `${getImagePrefix()}image/blog2.svg`,
     title: "Landing Page Development",
     desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
   },
   {
-    img: "/image/blog3.svg",
+    img: `${getImagePrefix()}image/blog3.svg`,
     title: "Mobile App Development",
     desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
   },
   {
-    img: "/image/blog4.svg",
+    img: `${getImagePrefix()}image/blog4.svg`,
     title: "E-commerce development",
     desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
   },
   {
-    img: "/image/blog-1.svg",
+    img: `${getImagePrefix()}image/blog-1.svg`,
     title: "Mobile App Development",
     desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
   },
   {
-    img: "/image/blog2.svg",
+    img: `${getImagePrefix()}image/blog2.svg`,
     title: "Landing Page Development",
     desc: "Promotional landing page for a  fitness website Summer Campaign. Form development included.",
   },
   {
-    img: "/image/blog3.svg",
+    img: `${getImagePrefix()}image/blog3.svg`,
     title: "Mobile App Development",
     desc: "Mobile app designed to help users discover and explore local restaurants and cuisines.",
   },
   {
-    img: "/image/blog4.svg",
+    img: `${getImagePrefix()}image/blog4.svg`,
     title: "E-commerce development",
     desc: "Ecommerce website offering  access to the latest and greatest gadgets and accessories.",
   },
