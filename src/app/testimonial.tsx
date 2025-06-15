@@ -87,7 +87,7 @@ export function Testimonial() {
                 width={768}
                 height={768}
                 alt="testimonial image"
-                src={`/image/avatar${active}.jpg`}
+                src={`${getImagePrefix()}image/avatar${active}.jpg`}
                 className="h-full rounded-lg w-full object-cover"
               />
             </div>
